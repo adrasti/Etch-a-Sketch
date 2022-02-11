@@ -1,0 +1,26 @@
+.html,body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: grid;
+    left: 50%;
+    height: 80vh;
+    width: 80vh;
+    margin: 10vh 10vw;
+}
+
+#b {
+    left: 50%;
+    top: 4.5%;
+    padding: 0.2rem 0.5rem;
+    font-size: 24px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
